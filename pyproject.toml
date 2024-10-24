@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "demo-project"
+version = "0.1.0"
+description = ""
+authors = ["pin-kun <pintu@logicrays.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+pip-chill = "^1.0.3"
+fastapi = "^0.115.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
